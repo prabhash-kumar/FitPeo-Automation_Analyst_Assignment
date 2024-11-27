@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" FitPeo Automation Assignment">
+  <test thread-count="5" name="Revenue Calculator Tests">
+    <classes>
+      <class name="tests.RevenueCalculatorTest"/>
+      <class name="tests.BaseTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

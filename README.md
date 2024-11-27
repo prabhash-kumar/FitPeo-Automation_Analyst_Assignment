@@ -41,14 +41,19 @@ If you're using **Maven**, you can add the necessary dependencies in the `pom.xm
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.4.0</version>
-    <scope>test</scope>
+    <version>7.10.2</version>
 </dependency>
 
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.1.0</version>
+    <version>4.26.0</version>
+</dependency>
+
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.2</version>
 </dependency>
 ```
 
